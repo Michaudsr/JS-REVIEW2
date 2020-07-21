@@ -88,9 +88,9 @@ headerTwo.classList.add('subtitle', 'header-two');
 remove class from headerTwo
 headerTwo.classList.remove('header-two');
 console.log(headerTwo);
-```
 
-` iterate through my friends array
+
+ iterate through my friends array
 for (let i = 0; i < friends.length; i ++) {
     let eachFriend = friends[i];
     
