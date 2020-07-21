@@ -1,5 +1,5 @@
 ## Examples of Data Types
-
+```
  let name = 'Steven'
  let age = 27;
  let isCool = true;
@@ -47,7 +47,7 @@
      printName(friend);
  });
 
-
+```
 
 ## Examples of Functions
 ```
