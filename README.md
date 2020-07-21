@@ -121,7 +121,7 @@ headerThree.addEventListener('click', function(){
 });
 ```
 
-/////////////////////////////
+
 
 
 

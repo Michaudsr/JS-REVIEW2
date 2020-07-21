@@ -215,7 +215,7 @@
 // ### isInside
 
 
-/////////////////////////
+
 
 function isInside(array, ele){
     const inArray = array.indexOf(ele);
@@ -227,7 +227,7 @@ function isInside(array, ele){
 }
  
 console.log(isInside(['rome', 'steven', 'pete'], 'steven'));
-////////////////
+
 
 function luckySevens(max){
     let newArray = [];
@@ -362,3 +362,63 @@ const wordYeller = (sentence) => {
 console.log(wordYeller(generalAssembly));
 
 
+// ### arraySubstring
+// ```js
+// // Write a function `arraySubstring(words, str)` that takes in an array of
+// // strings and a string as arguments and returns an array where each element is
+// // replaced with true if the string is a substring of the element and false if
+// // it is not.
+// //
+// // Examples:
+// //
+// // arraySubstring(["hello", "history", "helix", "hellos"],"hel")
+// // => [true, false, true, true]
+// // arraySubstring(["prefix", "problems", "pragmatic", "prefer"], "pre")
+// // => [true, false, false, true]
+
+
+function arraySubstring(words, str) {
+    const result = [];
+    for( let i = 0; i < words.length; i++) {
+        if (words[i].includes(str)) {
+            result.push(true);
+        } else {
+            result.push(false);
+        }
+    }
+    return result;
+}
+ console.log(arraySubstring(["hello", "history", "helix", "hellos"],"hel"));
+
+
+
+// #### evenCaps
+// ```js
+// // Write a function evenCaps(sentence) that takes in a sentence as an
+// // argument and returns the same string with each even index being
+// // capitalized. Index 0 counts as even.
+// //
+// // Examples:
+// //
+// // evenCaps("Tom got a small piece of pie")
+// // => "ToM GoT A SmAlL PiEcE Of pIe"
+// // evenCaps("the book is in front of the table")
+// // => "ThE BoOk iS In fRoNt oF ThE TaBlE"
+// ```
+
+function evenCaps(sentence) {
+    const arrayOne = [];
+    for ( let i = 0; i < sentence.length; i++){
+        
+        if (i % 2 == 0){
+            arrayOne.push(sentence[i].toUpperCase()); 
+        } else {
+            arrayOne.push(sentence[i]);
+        }
+
+    }
+    console.log(arrayOne.join(''));
+
+}
+
+evenCaps("Tom got a small piece of pie")
