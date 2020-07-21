@@ -123,33 +123,31 @@ headerThree.addEventListener('click', function(){
 ## Problem Solving
 ```
 
-// // Problem Solving
+ Problem Solving
 
-// // what do I start with
-// // what do I hope to end up with
+ what do I start with
+ what do I hope to end up 
+ understand the problem
+ where the issue start and..
 
-// // understand the problem
-// // where the issue start and..
+ break it down into more manageable problems
 
-// // break it down into more manageable problems
+ fizzBuzz
+ Write a function that does the following:
+ takes in an array
+ check each number in the array
+ if the number is divisible 5 and 3 === fizzBuzz
+ if the number is divisble by 3 === Fizz
+ if the number is divisible by 5 ==
+ for example:
+ [3, 5, 15, 20, 9, 7]
+ ['Fizz', 'Buzz', 'FizzBuzz', 'Fizz', 'Buzz', 7]
 
-// // fizzBuzz
-// // Write a function that does the following:
-//     // takes in an array
-//     // check each number in the array
-//     // if the number is divisible 5 and 3 === fizzBuzz
-//     // if the number is divisble by 3 === Fizz
-//     // if the number is divisible by 5 === 'Buzz'
-
-//     // for example:
-//     // [3, 5, 15, 20, 9, 7]
-//     // ['Fizz', 'Buzz', 'FizzBuzz', 'Fizz', 'Buzz', 7]
-
-//     // i need to set up an empty
-//     // iterate through the array that going to be passed in
-//     // check the remainder of each element
-//     // push the result of each element inside the result array
-//     // result that result array
+ i need to set up an empty
+ iterate through the array that going to be passed in
+ check the remainder of each element
+ push the result of each element inside the result array
+ result that result array
 
 
      function fizzBuzz(array) {
