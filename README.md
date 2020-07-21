@@ -152,62 +152,51 @@ headerThree.addEventListener('click', function(){
 //     // result that result array
 
 
-//     function fizzBuzz(array) {
-//         let result = [];
+     function fizzBuzz(array) {
+         let result = [];
 
-//         for (let i = 0; i < array.length; i++){
-//             let num = array[i];
-//             console.log(num); // 3, 5, 15, ...
+         for (let i = 0; i < array.length; i++){
+             let num = array[i];
+             console.log(num); // 3, 5, 15, ...
 
-//             if (num % 3 === 0 && num % 5 === 0){
-//                 result.push('FizzBuzz');
-//                 // do something
+             if (num % 3 === 0 && num % 5 === 0){
+                 result.push('FizzBuzz');
+                 // do something
 
-//             }else if (num % 3 === 0){
-//                 result.push('Fizz');
-//                 // do something
+             }else if (num % 3 === 0){
+                 result.push('Fizz');
+                 // do something
 
-//             } else if (num % 5 === 0){
-//                 result.push('Buzz')
+             } else if (num % 5 === 0){
+                 result.push('Buzz')
 
-//             } else { 
-//                 result.push(num);
+             } else { 
+                 result.push(num);
 
-//             }
-//         }   
-
-
-
-//         return result;
-//     }
-
-// console.log(fizzBuzz([3, 5, 15, 20, 9, 7]));
-
-// // - [ ] Do I understand what the prompt is asking?
-// // - [ ] Am I able to break the problem down?
-// // - [ ] What is my strategy for solving the problem?
-// // - [ ] Do I understand what my code is doing?
-// // - [ ] Am I able to foresee any edge cases?
-// // - [ ] Am I able to track the order of the code that is being executed?
-// // - [ ] Am I able to track the values of the variables?
-// // - [ ] Am I able to walk through my code line by line with an example?
-// // - [ ] Do I have a working solution?
+             }
+         }   
 
 
 
-// # JS Problem Solving
-// Practice pair programming for each problem. Switch roles every 10 mins.
-// Be sure to `console.log` to make sure that you got a working solution.
-// Ask yourself the following questions with each problem:
-// - [ ] Do I understand what the prompt is asking?
-// - [ ] Am I able to break the problem down?
-// - [ ] What is my strategy for solving the problem?
-// - [ ] Do I understand what my code is doing?
-// - [ ] Am I able to foresee any edge cases?
-// - [ ] Am I able to track the order of the code that is being executed?
-// - [ ] Am I able to track the values of the variables?
-// - [ ] Am I able to walk through my code line by line with an example?
-// - [ ] Do I have a working solution?
-// ### isInside
+         return result;
+     }
+
+console.log(fizzBuzz([3, 5, 15, 20, 9, 7])); - [ ] Do I understand what the prompt is asking - [ ] Am I able to break the problem down - [ ] What is my strategy for solving the problem - [ ] Do I understand what my code is doing - [ ] Am I able to foresee any edge cases - [ ] Am I able to track the order of the code that is being executed - [ ] Am I able to track the values of the variables - [ ] Am I able to walk through my code line by line with an example - [ ] Do I have a working solution
+
+
+ # JS Problem Solving
+ Practice pair programming for each problem. Switch roles every 10 mins.
+ Be sure to `console.log` to make sure that you got a working solution.
+ Ask yourself the following questions with each problem:
+ - [ ] Do I understand what the prompt is asking?
+ - [ ] Am I able to break the problem down?
+ - [ ] What is my strategy for solving the problem?
+ - [ ] Do I understand what my code is doing?
+ - [ ] Am I able to foresee any edge cases?
+ - [ ] Am I able to track the order of the code that is being executed?
+ - [ ] Am I able to track the values of the variables?
+ - [ ] Am I able to walk through my code line by line with an example?
+ - [ ] Do I have a working solution?
+ ### isInside
 
 ```
